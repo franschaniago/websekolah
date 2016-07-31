@@ -1,0 +1,374 @@
+*{
+	padding: 0; margin: 0; font-family: sans-serif; text-decoration: none; list-style: none;
+	max-width: 100% !important; 
+}
+
+body{
+	background: #7890A8; font-size: 15px;
+}
+
+#wrap{
+	width: 1150px;
+	min-height: 100%;
+	border: 0px solid black;
+	margin: 5px auto;
+	background: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+#foto1{
+	margin: 0.5%;
+	height: 638px;
+	width:70%;
+	border:1px solid black;
+	float: right;
+	background:blue;
+}
+
+#foto2{
+	margin: 0.5%;
+	height: 315px;
+	width: 28%;
+	border:1px solid black;
+	background-color: red;
+}
+
+#foto3{
+	margin: 0.5%;
+	height: 315px;
+	width: 28%;
+	border:1px solid black;
+	background-color: green;
+}
+
+#atas{
+	height: 300px;
+	border: 0px solid black;
+	background: #4a99d2;
+}
+
+#atas p{
+	font-size: 3em;
+}
+
+#nav{
+	height: 63px;
+	border: 0px solid black;
+	background-color: #1b4b6d;
+}
+
+#nav ul li{
+	float: left;
+	list-style: none;
+	padding: 15px;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	font-size: 1em;
+	color: white;
+}
+
+#nav ul li:hover{
+	background-color:#4a99d2;
+}
+
+#menu{
+	float: right;
+	width: 20%;
+	height: auto;
+	text-align: center;
+	line-height: 300%;
+	border:0px solid black;
+	padding: 10px;
+}
+
+#menu li a{
+	color: black;
+}
+
+#menu li{
+	border-bottom: 1px solid black;
+	border-radius: 5px;
+}
+
+#menu li:hover{
+	background-color: #4a99d2;
+}
+
+.judul{
+	background-color:#1b4b6d;
+	color: white;
+}
+
+.log{
+	float: right;
+}
+
+
+#kolom{
+	height: 260px;
+	background-color: #82CBF4;
+	padding: 10px;
+}
+
+.kolom1{
+	width: 380px;
+	float: left;
+	text-align: center;
+}
+
+#foot{
+	height: 50px;
+	line-height: 50px;
+	background-color:#1b4b6d;
+	color: white;
+}
+
+.text{
+border:0px;
+background: white;
+}
+
+
+.login{
+	width: 90%;
+	height: 40px;
+	color: white;
+	border:0px;
+	border-radius: 5px;
+	background-color: #4a99d2;
+	font-size: 1.5em;
+}
+
+.login:hover{
+	background-color: #C15B53;
+}
+
+.clear{
+	clear: both;
+}
+
+.kol1{
+	width: 25%;
+	height: 200px;
+	float: left;
+	margin: 4%;
+	border-radius: 5px;
+}
+
+.kol2{
+	width: 25%;
+	height: 200px;
+	float: left;
+	margin: 4%;
+	border-radius: 5px;
+}
+
+#satu{
+	background-color: white;
+	background-image: url(img/icon/kartu.jpg);
+	background-size: 140px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#satu:hover{
+	background-color: #4a99d2;
+	color: white;
+}
+
+#dua{
+	background-color: white;
+	background-image: url(img/icon/profil.jpg);
+	background-size: 140px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#dua:hover{
+	background-color: #4a99d2;
+}
+
+#tiga{
+	background-color: white;
+	background-image: url(img/icon/buku.jpg);
+	background-size: 140px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#tiga:hover{
+	background-color: #4a99d2;
+}
+
+#empat{
+	background-color: white;
+	background-image: url(img/icon/diskusi.jpg);
+	background-size: 140px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#empat:hover{
+	background-color: #4a99d2;
+}
+
+#lima{
+	background-color: white;
+	background-image: url(img/icon/ide.jpg);
+	background-size: 140px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#lima:hover{
+	background-color: #4a99d2;
+}
+
+#enam{
+	background-color: white;
+	background-image: url(img/icon/saran.jpg);
+	background-size: 140px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#enam:hover{
+	background-color: #4a99d2;
+}
+
+#flip{
+	clear: both;
+	background-color: red;
+}
+
+
+@media screen and (max-width: 1024px){
+
+	*{
+		padding: 0; margin:0;	font-size: 12px; 
+	}
+
+	#menu{
+		display: none;
+	}
+
+	#atas{
+		display: none;
+	}
+
+	#nav{
+		width: 100%;
+		height: 55px;
+	}
+
+	#nav ul li a img{
+		width: 20px; 
+		height: 20px;
+	}
+
+	#nav ul li{
+		width:20%;
+		float: left;
+		font-size: 0.9em;
+		text-align: center;
+	}
+
+	#nav ul li:hover{
+		background-color: transparent;
+	}
+
+	#flip{
+		clear: both;
+		width: 97%;
+		font-size: 1em;
+		background-color: red;
+		margin-top: 0px;
+	}
+
+	#panel p{
+		width: 100%;
+	}
+
+	.isi{
+		font-size: 1em;
+		line-height: 20px;
+	}
+
+	.kol1{
+		width: 95%;
+		height: 150px;
+		border-radius:5px;
+		border:1px solid black;
+	}
+
+	.kol2{
+		width: 95%;
+		height: 150px;
+		border-radius:0px;
+		border:1px solid black;
+	}
+
+	#satu{
+			background-size: 100px;
+	}
+
+	#satu:hover{
+		background-color: transparent;
+	}
+
+	#dua{
+			background-size: 100px;
+	}
+
+	#dua:hover{
+		background-color: transparent;
+	}
+
+	#tiga{
+			background-size: 100px;
+	}
+
+	#tiga:hover{
+		background-color: transparent;
+	}
+
+	#empat{
+			background-size: 100px;
+	}
+
+	#empat:hover{
+		background-color: transparent;
+	}
+
+	#lima{
+			background-size: 100px;
+	}
+
+	#lima:hover{
+		background-color: transparent;
+	}
+
+	#enam{
+			background-size: 100px;
+	}
+
+	#enam:hover{
+		background-color: transparent;
+	}
+
+	/*--Profil--*/
+
+	.foto{
+		height: 100px;
+		width: 100px;
+	}
+
+	#tabprofil{
+		line-height: 30px;
+		width: 100%;
+	}
+}

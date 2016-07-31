@@ -1,0 +1,113 @@
+*{
+	padding: 0; margin:0; text-decoration: none; list-style: none; font-family: sans-serif;
+}
+body{
+	background-color: #D5E5EF;
+}
+#wrap{
+	width: 100%;
+	height: auto;
+	background-color: #D5E5EF;	
+}
+
+#nav{
+	height: 7%;
+	background-color: #1B4B6D;
+	color: white;
+	position: fixed;
+	width: 100%;
+}
+
+#nav li a{
+	color: white;
+}
+
+#isi{
+	background-color: blue; 
+	height: auto;
+}
+
+#menu{
+	border: 0px solid black;
+	height: 100%;
+	width: 20%;
+	float: left;
+	background-color: #1b4b6d;
+	position: fixed;
+	margin-top: 47px;
+}
+
+#menu ul li{
+	border-bottom: 1px solid #4a99d2;
+	text-align: center;	
+	line-height: 40px;
+	border-radius: 10px;
+}
+
+#menu ul li a{
+	color: white;
+}
+
+#menu li ul{
+	display: none;
+}
+
+#menu li:hover ul{
+	display: block;
+}
+
+#menu li ul li{
+	background-color: #4a99d2;
+}
+
+#menu li ul li:hover{
+	background-color: #4a99d2;
+}
+
+.judul{
+	background-color: #4a99d2;
+	color: white;
+	line-height: 40px;
+}
+
+#konten{
+	background-color: #D5E5EF;
+	height: auto;
+	border: 0px solid white;
+	width: 79.5%;
+	float: right;
+	margin-top: 47px;
+}
+
+.edit{
+	background-color: #23D668;
+	padding: 5px;
+	color: white;
+	border:0px;
+}
+
+.edit a{
+	padding: 10px;
+	color: white;
+}
+
+.edit:hover{
+	background-color: #54E28B;
+}
+
+.hapus{
+	background-color: #EF4848;
+	padding: 5px;
+	color: white;
+	border:0px;
+}
+
+
+.hapus a{
+	padding: 10px;
+	color: white;
+}
+
+.hapus:hover{
+	background-color: #EC6565;
+}
